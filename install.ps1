@@ -7,7 +7,7 @@ Write-Host "==============================="
 Write-Host ""
 
 
-Write-Host "1. Download linear-regression.py"
+Write-Host "1. Download linear-regression.ipynb"
 
 Write-Host "2. Download naive-bayes.py"
 
@@ -33,7 +33,7 @@ $choice = Read-Host "Enter your choice (1-3)"
 
 switch ($choice) {
 
-    1 { $file = "linear-regression.py"}
+    1 { $file = "linear-regression.ipynb"}
 
     2 { $file = "naive-bayes.py" }
 
