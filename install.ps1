@@ -9,7 +9,7 @@ Write-Host "3. Download svm.py"
 Write-Host "4. Download kmeans.py"
 Write-Host "5. Download random-forest.py"
 Write-Host "6. Download boosting.py"
-Write-Host "7. Download taxi-problem.py"
+Write-Host "7. Download taxi-problem.ipynb"
 Write-Host "8. Download tic-tac-toe.py"
 Write-Host ""
 
@@ -22,7 +22,7 @@ switch ($choice) {
     4 { $file = "kmeans.py" }
     5 { $file = "random-forest.py" }
     6 { $file = "boosting.py" }
-    7 { $file = "taxi-problem.py" }
+    7 { $file = "taxi-problem.ipynb" }
     8 { $file = "tic-tac-toe.py" }
     default {
         Write-Host "Invalid choice!"
