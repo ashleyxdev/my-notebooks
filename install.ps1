@@ -19,7 +19,7 @@ switch ($choice) {
     }
 }
 
-$url = "https://raw.githubusercontent.com/ashleyxdev/my-scripts/main/$file"
+$url = "https://raw.githubusercontent.com/ashleyxdev/my-scripts/master/$file"
 
 Write-Host "`nDownloading $file..."
 Invoke-WebRequest -Uri $url -OutFile $file
