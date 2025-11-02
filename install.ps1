@@ -16,7 +16,7 @@ Write-Host ""
 $choice = Read-Host "Enter your choice (1-3)"
 
 switch ($choice) {
-    1 { $file = "taxi-problem.py"}
+    1 { $file = "linear-regression.py"}
     2 { $file = "naive-bayes.py" }
     3 { $file = "svm.py" }
     4 { $file = "kmeans.py" }
