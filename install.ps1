@@ -27,7 +27,7 @@ Write-Host ""
 
 
 
-$choice = Read-Host "Enter your choice (1-3)"
+$choice = Read-Host "Enter your choice (1-8)"
 
 
 
